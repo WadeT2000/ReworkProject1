@@ -1,0 +1,94 @@
+/* body {
+    background-image: url("https://cdn.wallpapersafari.com/11/31/stKmlF.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center center;  
+    height: 100%;
+    margin: 0;
+} */
+
+/* body.home {
+      
+  } */
+
+.Bar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.HomeOptions {
+    display: grid;
+  justify-content: space-around;
+  grid-template-columns:repeat(auto-fit,500px);
+  grid-template-rows:auto auto;
+  grid: auto;
+  overflow:hidden; 
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  opacity: 100%;
+}
+
+.HomePage {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  margin-right: 900px;
+  margin-left: 900px;
+}
+
+.Home {
+    background-image: url("https://wallpapers.com/images/hd/star-wars-characters-hd-plzcoaffexgf4h81.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center center;  
+    height: 100%;
+    width: 100%;
+    opacity: 90%;
+}
+
+.Selection {
+    border: 5px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+  margin-right: 48px;
+}
+
+.Loading {
+    display: flex;
+    justify-content: center;
+
+}
+.loading{
+    display: flex;
+    justify-content: center; 
+}
+.LoadingMain {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.Header1 {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.Lists {
+    display: inline-block;
+  width: 500px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: circle; 
+  list-style-position: inside;
+}
